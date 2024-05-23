@@ -48,3 +48,29 @@ table {
 	border-spacing: 0;
 }
 
+/* HOME */
+header {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	background: url();
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+header div {
+	text-align: center;
+}
+
+nav ul {
+	display: flex;
+
+}
+
+nav a {
+	text-decoration: none;
+ }
