@@ -4,6 +4,18 @@
    License: none (public domain)
 */
 
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,13 +61,17 @@ table {
 }
 
 /* General */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 body {
 	font-family: "Open Sans", sans-serif;
-}
+} */
 
+a {
+	text-decoration: none;
+	color: #fff;
+}
 
 /* HOME */
 header {
@@ -63,33 +79,39 @@ header {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	/* background: url(../images/home/showcase.jpg); */
+	background: url(../images/home/showcase.jpg) no-repeat center center/cover;
 }
 
-header img {
+/* header img {
 	width: 100vw;
 	height: 100vh;
 	object-fit: cover;
 	filter: brightness(.4);
-}
+} */
 
 header section {
-	position: absolute;
+	/* position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); */
 }
 
 #home {
-	display: flex;
-	justify-content: space-between;
+	/* display: flex;
+	flex-direction: column; */
 }
 
 .logo-nav {
+	width: 100%;
+	height: 4rem;
 	display: flex;
+	position: fixed;
+	top: 0px;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem 2rem;
+	padding: 0 2rem;
+	background: #333;
+	opacity: 0.8;
 }
 
 .logo {
@@ -120,7 +142,6 @@ header section {
 	margin: auto;
 	/* font-size: 55px; */
 	color: #fff;
-
 }
 
 .header-content h2 {
