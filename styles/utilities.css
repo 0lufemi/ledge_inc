@@ -1,3 +1,18 @@
+.primary-btn {
+    border: none;
+	background: #28a745;
+	border: none;
+	font-size: 1rem;
+	padding: 1rem 2.5rem;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.primary-btn:hover{
+    opacity: 0.9;
+	cursor: pointer;
+}
+
 .bg-primary {
     background: #28a745;
     color: #fff;
