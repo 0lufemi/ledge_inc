@@ -17,3 +17,20 @@
     background: #28a745;
     color: #fff;
 }
+
+/* Flex */
+.flex-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.flex-items .columns {
+    display: flex;
+    flex-direction: column;
+
+}
+.flex-items .row {
+    display: flex;
+    flex-direction: row;
+}

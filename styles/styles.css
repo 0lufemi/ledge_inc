@@ -216,6 +216,7 @@ header * {
 .about-bottom-left img{
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 }
 
 .about-bottom-right {
@@ -247,4 +248,10 @@ header * {
 .about-bottom-right button {
 	align-self: flex-start;
 	border: 1px solid #fff;
+}
+
+
+/* CASES */
+.cases {
+	height: 100vh;
 }
