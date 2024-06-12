@@ -18,9 +18,14 @@
 	border-radius: 5px;
 }
 
-.primary-btn:hover{
+.primary-btn:hover,
+.secondary-btn:hover {
     opacity: 0.9;
 	cursor: pointer;
+}
+
+.btn-outline {
+    border: 1px solid #fff;
 }
 
 /* Backgrounds */
