@@ -19,18 +19,23 @@
 }
 
 /* Flex */
-.flex-items {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.flex-items .columns {
-    display: flex;
-    flex-direction: column;
-
-}
-.flex-items .row {
+.flex-row {
     display: flex;
     flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+/* .flex-row > div {
+    padding: 20px;
+} */
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    width: 100%;
 }
