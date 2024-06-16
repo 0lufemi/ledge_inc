@@ -382,3 +382,39 @@ header * {
 }
 
 /* CONTACT */
+.contact-left,
+.contact-right {
+	flex: 1;
+}
+
+.contact-right {
+	align-items: stretch;
+	padding: 2rem;
+}
+
+.contact-right h2{
+	align-self: flex-start;
+	font-size: 2.5rem;
+	font-weight: 200;
+	margin-bottom: 1rem;
+}
+
+.contact-left img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.contact-right form input,
+.contact-right form button {
+	/* color: #333; */
+	border: none;
+	height: 40px;
+	width: 100%;
+	padding: 0.3rem;
+	margin: 0.5rem 0;
+}
+
+.contact-right form button {
+	margin-top: 1rem;
+}
