@@ -342,6 +342,7 @@ header * {
 /* TEAM */
 .team {
 	padding: 0 10px;
+	margin-bottom: 50px;
 }
 
 .team-top {
@@ -418,3 +419,5 @@ header * {
 .contact-right form button {
 	margin-top: 1rem;
 }
+
+/* FOOTER */
