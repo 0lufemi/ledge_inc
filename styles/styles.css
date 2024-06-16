@@ -156,21 +156,11 @@ header * {
 	margin-bottom: 2rem;
 }
 
-/* .header-content button:hover {
-	opacity: 0.9;
-	cursor: pointer;
-} */
-
 
 /* ABOUT */
 .about {
-	/* display: flex;
-	flex-direction: column; */
-	/* height: 100vh; */
 	scroll-margin: 0px;
 	scroll-behavior: smooth;
-	/* justify-content: space-between;
-	padding: 0.7rem; */
 }
 
 .about-top {
@@ -284,9 +274,6 @@ header * {
 	font-size: 1rem;
 }
 
-/* .cases > div {
-	width: 100%;;
-} */
 
 .cases-bottom {
 	padding: 1rem 0;
@@ -300,9 +287,6 @@ header * {
 }
 
 /* BLOG */
-.blog {
-	/* height: 10vh; */
-}
 
 .blog-left {
 	padding: 1rem 2rem;
@@ -383,6 +367,11 @@ header * {
 }
 
 /* CONTACT */
+#contact {
+	scroll-margin: 0px;
+	scroll-behavior: smooth;
+}
+
 .contact-left,
 .contact-right {
 	flex: 1;
