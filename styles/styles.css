@@ -421,3 +421,23 @@ header * {
 }
 
 /* FOOTER */
+footer {
+	justify-content: center;
+	align-items: center;
+	padding: 4rem 0;
+}
+
+footer h3 {
+	font-size: 1.1rem;
+}
+
+.socials {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+.socials a:hover {
+	color: #28a745;
+}
